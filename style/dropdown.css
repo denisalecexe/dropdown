@@ -17,3 +17,25 @@
 .dropdown > div:hover {
   background-color: darkcyan;
 }
+
+
+.dropdown > div:first-child {
+  z-index: 1;
+  background-color: royalblue;
+}
+
+.dropdown > div:nth-child(2) {
+  top: -38px;
+}
+
+.dropdown > div:nth-child(3) {
+  top: -76px;
+}
+
+.dropdown > div:last-child {
+  top: -114px;
+}
+
+.dropdown:hover > div {
+  top: 0;
+}
