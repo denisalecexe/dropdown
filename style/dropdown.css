@@ -3,3 +3,17 @@
   place-items: center;
 }
 
+.dropdown > div {
+  display: block;
+  background-color:slategray;
+  color: black;
+  padding: 10px;
+  text-align: center;
+  transition: 1s;
+  position: relative;
+  cursor: pointer;
+}
+
+.dropdown > div:hover {
+  background-color: darkcyan;
+}
